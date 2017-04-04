@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1491289992010" stop="1491289998052" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Login to OSS</name>
+    <description type="text">
+As a customer,
+I want to be able to log into OSS
+so that I can access the OSS desktop</description>
+    <test-cases>
+        <test-case start="1491289992052" stop="1491289997972" status="failed">
+            <name>Invalid customer</name>
+            <title>Invalid customer</title>
+            <description type="text"></description>
+            <failure>
+                <message>AssertionError: null</message>
+                <stack-trace>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.ray.autotest.tests.HomePageTestSteps.the_user_is_not_logged_into_OSS_and_an_error_message_is_displayed(HomePageTestSteps.java:90)
+	at ✽.Then the user is not logged into OSS and an error message is displayed(features/HomePage.feature:11)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1491289994303" stop="1491289997948" status="passed">
+                    <name>Given the user is on the OSS Login page</name>
+                    <title>Given the user is on the OSS Login page</title>
+                </step>
+                <step start="1491289997948" stop="1491289997948" status="passed">
+                    <name>When the user enters an invalid user name or password</name>
+                    <title>When the user enters an invalid user name or password</title>
+                </step>
+                <step start="1491289997948" stop="1491289997971" status="failed">
+                    <name>Then the user is not logged into OSS and an error message is displayed</name>
+                    <title>Then the user is not logged into OSS and an error message is displayed</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Invalid customer"/>
+                <label name="feature" value="Login to OSS"/>
+                <label name="host" value="LAPTOP1335"/>
+                <label name="thread" value="12964@LAPTOP1335.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1491289997974" stop="1491289998052" status="failed">
+            <name>Invalid customer2</name>
+            <title>Invalid customer2</title>
+            <description type="text"></description>
+            <failure>
+                <message>AssertionError: null</message>
+                <stack-trace>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.ray.autotest.tests.HomePageTestSteps.the_user_is_not_logged_into_OSS_and_an_error_message_is_displayed(HomePageTestSteps.java:90)
+	at ✽.Then the user is not logged into OSS and an error message is displayed(features/HomePage.feature:16)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1491289998021" stop="1491289998037" status="passed">
+                    <name>Given the user is on the home page</name>
+                    <title>Given the user is on the home page</title>
+                </step>
+                <step start="1491289998037" stop="1491289998037" status="passed">
+                    <name>When the user enters an invalid user name or password</name>
+                    <title>When the user enters an invalid user name or password</title>
+                </step>
+                <step start="1491289998037" stop="1491289998052" status="failed">
+                    <name>Then the user is not logged into OSS and an error message is displayed</name>
+                    <title>Then the user is not logged into OSS and an error message is displayed</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Invalid customer2"/>
+                <label name="feature" value="Login to OSS"/>
+                <label name="host" value="LAPTOP1335"/>
+                <label name="thread" value="12964@LAPTOP1335.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Login to OSS"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

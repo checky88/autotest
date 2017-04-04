@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1491300550918" stop="1491300555137" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Contact V1</name>
+    <description type="text">
+As a customer,
+I want to be able to contact V1</description>
+    <test-cases>
+        <test-case start="1491300550933" stop="1491300555136" status="broken">
+            <name>Navigate Page</name>
+            <title>Navigate Page</title>
+            <description type="text"></description>
+            <failure>
+                <message>Error: Unresolved compilation problem: 
+	The method getContactButton() from the type HomePage is not visible
+</message>
+                <stack-trace>java.lang.Error: Unresolved compilation problem: 
+	The method getContactButton() from the type HomePage is not visible
+
+	at com.ray.autotest.tests.HomePageTestSteps.the_user_clicks_contact(HomePageTestSteps.java:56)
+	at ✽.When the user clicks contact(features/Test01.feature:9)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1491300552958" stop="1491300555121" status="passed">
+                    <name>Given the user is on the home page</name>
+                    <title>Given the user is on the home page</title>
+                </step>
+                <step start="1491300555122" stop="1491300555129" status="broken">
+                    <name>When the user clicks contact</name>
+                    <title>When the user clicks contact</title>
+                </step>
+                <step start="1491300555130" stop="1491300555133" status="canceled">
+                    <name>Then the user is brought to the contact page</name>
+                    <title>Then the user is brought to the contact page</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Navigate Page"/>
+                <label name="feature" value="Contact V1"/>
+                <label name="host" value="LAPTOP1335"/>
+                <label name="thread" value="11608@LAPTOP1335.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Contact V1"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1491300917521" stop="1491300922826" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Contact V1</name>
+    <description type="text">
+As a customer,
+I want to be able to contact V1</description>
+    <test-cases>
+        <test-case start="1491300917547" stop="1491300922825" status="broken">
+            <name>Navigate Page</name>
+            <title>Navigate Page</title>
+            <description type="text"></description>
+            <failure>
+                <message>NullPointerException: null</message>
+                <stack-trace>java.lang.NullPointerException
+	at com.ray.autotest.tests.HomePageTestSteps.the_user_is_brought_to_the_contact_page(HomePageTestSteps.java:61)
+	at ✽.Then the user is brought to the contact page(features/Test01.feature:10)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1491300919535" stop="1491300921672" status="passed">
+                    <name>Given the user is on the home page</name>
+                    <title>Given the user is on the home page</title>
+                </step>
+                <step start="1491300921673" stop="1491300922815" status="passed">
+                    <name>When the user clicks contact</name>
+                    <title>When the user clicks contact</title>
+                </step>
+                <step start="1491300922816" stop="1491300922823" status="broken">
+                    <name>Then the user is brought to the contact page</name>
+                    <title>Then the user is brought to the contact page</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Navigate Page"/>
+                <label name="feature" value="Contact V1"/>
+                <label name="host" value="LAPTOP1335"/>
+                <label name="thread" value="14128@LAPTOP1335.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Contact V1"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

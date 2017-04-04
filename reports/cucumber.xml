@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="5.172766">
+<testcase classname="Contact V1" name="Navigate Page" time="5.172766">
+<system-out><![CDATA[Given the user is on the home page..........................................passed
+When the user clicks contact................................................passed
+Then the user is brought to the contact page................................passed
+]]></system-out>
+</testcase>
+</testsuite>

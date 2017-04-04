@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Built-By: KellyR
+Build-Jdk: 1.8.0_111
+Class-Path: dependency-jars/selenium-java-2.47.1.jar dependency-jars/s
+ elenium-chrome-driver-2.47.1.jar dependency-jars/selenium-remote-driv
+ er-2.47.1.jar dependency-jars/cglib-nodep-2.1_3.jar dependency-jars/g
+ son-2.3.1.jar dependency-jars/selenium-api-2.47.1.jar dependency-jars
+ /guava-18.0.jar dependency-jars/selenium-edge-driver-2.47.1.jar depen
+ dency-jars/commons-io-2.4.jar dependency-jars/commons-exec-1.3.jar de
+ pendency-jars/selenium-htmlunit-driver-2.47.1.jar dependency-jars/htm
+ lunit-2.17.jar dependency-jars/xalan-2.7.2.jar dependency-jars/serial
+ izer-2.7.2.jar dependency-jars/commons-collections-3.2.1.jar dependen
+ cy-jars/httpmime-4.4.1.jar dependency-jars/commons-codec-1.10.jar dep
+ endency-jars/htmlunit-core-js-2.17.jar dependency-jars/xercesImpl-2.1
+ 1.0.jar dependency-jars/xml-apis-1.4.01.jar dependency-jars/nekohtml-
+ 1.9.22.jar dependency-jars/cssparser-0.9.16.jar dependency-jars/sac-1
+ .3.jar dependency-jars/commons-logging-1.2.jar dependency-jars/websoc
+ ket-client-9.2.11.v20150529.jar dependency-jars/jetty-util-9.2.11.v20
+ 150529.jar dependency-jars/jetty-io-9.2.11.v20150529.jar dependency-j
+ ars/websocket-common-9.2.11.v20150529.jar dependency-jars/websocket-a
+ pi-9.2.11.v20150529.jar dependency-jars/httpclient-4.4.1.jar dependen
+ cy-jars/httpcore-4.4.1.jar dependency-jars/selenium-firefox-driver-2.
+ 47.1.jar dependency-jars/selenium-ie-driver-2.47.1.jar dependency-jar
+ s/jna-4.1.0.jar dependency-jars/jna-platform-4.1.0.jar dependency-jar
+ s/selenium-safari-driver-2.47.1.jar dependency-jars/selenium-support-
+ 2.47.1.jar dependency-jars/webbit-0.4.14.jar dependency-jars/netty-3.
+ 5.2.Final.jar dependency-jars/selenium-leg-rc-2.47.1.jar dependency-j
+ ars/log4j-1.2.17.jar dependency-jars/allure-cucumber-jvm-adaptor-1.6.
+ 2.jar dependency-jars/allure-java-aspects-1.5.2.jar dependency-jars/a
+ llure-java-adaptor-api-1.5.2.jar dependency-jars/allure-java-annotati
+ ons-1.5.2.jar dependency-jars/tika-core-1.7.jar dependency-jars/aspec
+ tjrt-1.8.3.jar dependency-jars/allure-commons-1.5.2.jar dependency-ja
+ rs/allure-model-1.5.2.jar dependency-jars/jaxb2-basics-runtime-0.9.3.
+ jar dependency-jars/properties-2.0.RC5.jar dependency-jars/slf4j-api-
+ 1.7.12.jar dependency-jars/cucumber-junit-1.2.5.jar dependency-jars/c
+ ucumber-core-1.2.5.jar dependency-jars/cucumber-html-0.2.3.jar depend
+ ency-jars/cucumber-jvm-deps-1.0.5.jar dependency-jars/cucumber-java-1
+ .2.5.jar dependency-jars/commons-lang3-3.3.2.jar dependency-jars/gher
+ kin-2.12.2.jar dependency-jars/commons-logging-api-1.1.jar
+Main-Class: cucumber.cli.Main
+Created-By: Maven Integration for Eclipse
+

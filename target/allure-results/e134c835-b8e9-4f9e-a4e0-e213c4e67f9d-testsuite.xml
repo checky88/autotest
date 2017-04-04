@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1491299537827" stop="1491299540135" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Contact V1</name>
+    <description type="text">
+As a customer,
+I want to be able to contact V1</description>
+    <test-cases>
+        <test-case start="1491299537843" stop="1491299540133" status="pending">
+            <name>Navigate Page</name>
+            <title>Navigate Page</title>
+            <description type="text"></description>
+            <failure>
+                <message>Unimplemented steps were found</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps>
+                <step start="1491299539822" stop="1491299540122" status="passed">
+                    <name>Given the user is on the home page</name>
+                    <title>Given the user is on the home page</title>
+                </step>
+                <step start="1491299540129" stop="1491299540130" status="canceled">
+                    <name>the user clicks contact</name>
+                    <title>the user clicks contact</title>
+                </step>
+                <step start="1491299540132" stop="1491299540132" status="canceled">
+                    <name>the user is brought to the contact page</name>
+                    <title>the user is brought to the contact page</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Navigate Page"/>
+                <label name="feature" value="Contact V1"/>
+                <label name="host" value="LAPTOP1335"/>
+                <label name="thread" value="4156@LAPTOP1335.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Contact V1"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

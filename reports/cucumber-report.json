@@ -1,0 +1,95 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2069700824,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageTestSteps.beforeScenarios()"
+            }
+          },
+          {
+            "result": {
+              "duration": 53532508,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedDriver.deleteAllCookies()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Navigate Page",
+        "description": "",
+        "id": "contact-v1;navigate-page",
+        "after": [
+          {
+            "result": {
+              "duration": 24494,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageTestSteps.afterScenarios()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2385754926,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user is on the home page",
+            "match": {
+              "location": "HomePageTestSteps.the_user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 663702910,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user clicks contact",
+            "match": {
+              "location": "HomePageTestSteps.the_user_clicks_contact()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50173,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user is brought to the contact page",
+            "match": {
+              "location": "HomePageTestSteps.the_user_is_brought_to_the_contact_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Contact V1",
+    "description": "\r\nAs a customer,\r\nI want to be able to contact V1",
+    "id": "contact-v1",
+    "keyword": "Feature",
+    "uri": "features/Test01.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@login"
+      }
+    ]
+  }
+]
